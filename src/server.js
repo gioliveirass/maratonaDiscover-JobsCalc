@@ -10,6 +10,9 @@ server.set('view engine', 'ejs')
 // Habilitar arquivos statics (que estão todos na pasta public)
 server.use(express.static("public"))
 
+// Usar o requeste.body
+server.use(express.urlencoded({extended: true}))
+
 // Routes
 server.use(routes)
 
