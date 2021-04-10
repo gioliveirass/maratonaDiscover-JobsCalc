@@ -101,7 +101,7 @@ const Job = {
         },
 
         save(request, response) {
-            const lastId = Job.data[Job.data.length - 1]?.id || 1;
+            const lastId = Job.data[Job.data.length - 1]?.id || 0;
             Job.data.push({
                 id: lastId + 1,
                 name: request.body.name,
@@ -150,6 +150,13 @@ const Job = {
             })
 
             response.redirect('/job/' + jobId)
+        },
+
+        delete(request, response) {
+            const jobId = request.params.id
+            Job.data = Job.data.filter(job => Number(job.id) !== Number(jobId))
+
+            return response.redirect('/index')
         }
     },
 
@@ -177,6 +184,7 @@ routes.get('/job', Job.controllers.create)
 routes.post('/job', Job.controllers.save)
 routes.get('/job/:id', Job.controllers.show)
 routes.post('/job/:id', Job.controllers.update)
+routes.post('/job/delete/:id', Job.controllers.delete)
 routes.get('/profile', Profile.controllers.index)
 routes.post('/profile', Profile.controllers.update)
 
