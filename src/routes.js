@@ -2,9 +2,10 @@ const express = require('express')
 const routes = express.Router() // É uma parte do express que gera os caminhos
 const ProfileController = require('./controllers/ProfileController')
 const JobController = require('./controllers/JobController')
+const DashboardController = require('./controllers/DashboardController')
 
 // Criando rotas: Request, Response
-routes.get('/index', JobController.index)
+routes.get('/index', DashboardController.index)
 routes.get('/job', JobController.create)
 routes.post('/job', JobController.save)
 routes.get('/job/:id', JobController.show)
