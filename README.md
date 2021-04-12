@@ -40,7 +40,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Para utilizar o presente projeto em sua máquina, é necessário instalar o [Git](https://git-scm.com/) e o [Node.js](https://nodejs.org/en/). Também é necessário instalar as dependências, e os comandos para isso se escontram no próximo subtópico.
 
-### Dependências
+### Dependências e Servidor
 
 Antes de tudo, é necessário clonar o presente repositório. Você pode fazer isso no terminal com a linha de comando:
 ```
@@ -55,14 +55,16 @@ $ cd maratonaDiscover-JobsCalc
 $ cd src
 ```
 
-Uma vez que a pasta /maratonaDiscover-JobsCalc/src está aberta no terminal, execute os seguintes comandos para **instalar as dependências**:
+Uma vez que a pasta /maratonaDiscover-JobsCalc/src está aberta no terminal, execute os seguintes comandos para **instalar as dependências** e criar o banco de dados:
 ```
 # Para instalar as dependências:
 $ npm install
 
 # Para gerar o banco de dados:
 $ npm run init-db
-
+```
+Após ter as dependências e o banco de dados em sua máquina, basta iniciar o servidor com a seguinte linha de comando (ainda com a pasta correta aberta no terminal):
+```
 # Para iniciar o servidor:
 $ npm run dev
 ```
