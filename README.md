@@ -6,7 +6,7 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -36,17 +36,17 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Express
 - SQLite
 
-## 🖥️ Requisitos
+## <a id="requisitos"> 🖥️ Requisitos </a>
 
-Para utilizar o presente projeto em sua máquina, é necessário instalar o [Git](https://git-scm.com/) e o [Node.js](https://nodejs.org/en/). Também é necessário instalar as dependências executando no terminal os seguintes comandos no próximo subtópico.
+Para utilizar o presente projeto em sua máquina, é necessário instalar o [Git](https://git-scm.com/) e o [Node.js](https://nodejs.org/en/). Também é necessário instalar as dependências, e os comandos para isso se escontram no próximo subtópico.
 
 ### Dependências
 
-Antes de tudo, é necessário clonar o repositório atual. Você pode fazer isso com a linha de comando:
+Antes de tudo, é necessário clonar o presente repositório. Você pode fazer isso no terminal com a linha de comando:
 ```
 $ git clone https://github.com/gioliveirass/maratonaDiscover-JobsCalc.git
 ```
-Uma vez que o repositório está em sua máquina, é necessário navegar até a pasta /maratonaDiscover-JobsCalc/src. Para isso, você pode executar as seguintes linhas de comando:
+Uma vez que o repositório está em sua máquina, é necessário navegar até a pasta /maratonaDiscover-JobsCalc/src através do terminal. Para isso, você pode executar as seguintes linhas de comando:
 ```
 # Para navegar até /maratonaDiscover-JobsCalc
 $ cd maratonaDiscover-JobsCalc
@@ -55,7 +55,7 @@ $ cd maratonaDiscover-JobsCalc
 $ cd src
 ```
 
-Uma vez na pasta /maratonaDiscover-JobsCalc/src, execute os comandos:
+Uma vez que a pasta /maratonaDiscover-JobsCalc/src está aberta no terminal, execute os seguintes comandos para **instalar as dependências**:
 ```
 # Para instalar as dependências:
 $ npm install
