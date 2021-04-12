@@ -10,13 +10,14 @@ module.exports ={
     save(request, response) {
         const jobs = Job.get()
         const lastId = jobs[jobs.length - 1]?.id || 0;
-        jobs.push({
+        Job.create({
             id: lastId + 1,
             name: request.body.name,
             "daily-hours": request.body["daily-hours"],
             "total-hours": request.body["total-hours"],
             createdAt: Date.now() // Atribuí data de hoje
-        })
+        });
+
         return response.redirect('/index')
     },
  
