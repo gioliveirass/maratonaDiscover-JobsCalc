@@ -46,16 +46,13 @@ Antes de tudo, é necessário clonar o presente repositório. Você pode fazer i
 ```
 $ git clone https://github.com/gioliveirass/maratonaDiscover-JobsCalc.git
 ```
-Uma vez que o repositório está em sua máquina, é necessário navegar até a pasta /maratonaDiscover-JobsCalc/src através do terminal. Para isso, você pode executar as seguintes linhas de comando:
+Uma vez que o repositório está em sua máquina, é necessário navegar até a pasta /maratonaDiscover-JobsCalc através do terminal. Para isso, você pode executar a seguinte linha de comando:
 ```
 # Para navegar até /maratonaDiscover-JobsCalc
 $ cd maratonaDiscover-JobsCalc
-
-# Para navegar até /scr
-$ cd src
 ```
 
-Uma vez que a pasta /maratonaDiscover-JobsCalc/src está aberta no terminal, execute os seguintes comandos para **instalar as dependências** e criar o banco de dados:
+Uma vez que a pasta /maratonaDiscover-JobsCalc está aberta no terminal, execute os seguintes comandos para **instalar as dependências** e criar o banco de dados:
 ```
 # Para instalar as dependências:
 $ npm install
@@ -68,7 +65,7 @@ Após ter as dependências e o banco de dados em sua máquina, basta iniciar o s
 # Para iniciar o servidor:
 $ npm run dev
 ```
-O servidor será iniciado na porta:3000, e você pode acessá-lo através de http://localhost:3000.
+O servidor será iniciado na porta:3000, e você pode acessá-lo através de http://localhost:3000/index.
 
 ## :memo: Licença
 
