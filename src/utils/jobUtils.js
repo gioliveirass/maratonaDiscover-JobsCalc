@@ -7,7 +7,7 @@ module.exports = {
         const dueDateInMs = createdDate.setDate(dueDay) // Calculando a data do futuro
         const timeDiffInMs = dueDateInMs - Date.now()
         const dayInMs = 1000 * 60 * 60 * 24 // Transformas ms em days
-        const dayDiff = Math.floor(timeDiffInMs / dayInMs) // Calculando a diferença de dias, o Math.floor arredonda o número para baixo 
+        const dayDiff = Math.ceil(timeDiffInMs / dayInMs) // Calculando a diferença de dias, o Math.floor arredonda o número para baixo 
         // Restam x dias...
         return dayDiff
     },
