@@ -73,4 +73,6 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.c
 
 <hr>
 
-[![image](https://img.shields.io/badge/Feito%20com%20💚%20por%20Giovana%20Silva-Veja%20meu%20LinkedIn!-239120?style=flat-square)](https://www.linkedin.com/in/gioliveirass/)
+ʕ •ᴥ•ʔ /
+
+[![image](https://img.shields.io/badge/👽%20Feito%20por%20Giovana%20Silva-Veja%20meu%20LinkedIn!-239120?style=flat-square)](https://www.linkedin.com/in/gioliveirass/)
