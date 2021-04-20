@@ -70,3 +70,7 @@ O servidor será iniciado na porta:3000, e você pode acessá-lo através de htt
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/gioliveirass/maratonaDiscover-JobsCalc/blob/main/LICENSE) para mais detalhes.
+
+<hr>
+
+[![image](https://img.shields.io/badge/👽%20Por%20Giovana%20Silva-Acesse%20meu%20LinkedIn!-239120?style=flat)](https://www.linkedin.com/in/gioliveirass/)
